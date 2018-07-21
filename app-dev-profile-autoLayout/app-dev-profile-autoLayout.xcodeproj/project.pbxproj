@@ -12,6 +12,7 @@
 		CE3B45F321030D980054ABF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3B45F121030D980054ABF7 /* Main.storyboard */; };
 		CE3B45F521030D990054ABF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3B45F421030D990054ABF7 /* Assets.xcassets */; };
 		CE3B45F821030D9A0054ABF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3B45F621030D9A0054ABF7 /* LaunchScreen.storyboard */; };
+		CE3B4601210315400054ABF7 /* BorderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B4600210315400054ABF7 /* BorderImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE3B45F421030D990054ABF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3B45F721030D9A0054ABF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3B45F921030D9A0054ABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3B4600210315400054ABF7 /* BorderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CE3B45EC21030D980054ABF7 /* app-dev-profile-autoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				CE3B45FF210315180054ABF7 /* View */,
 				CE3B45ED21030D980054ABF7 /* AppDelegate.swift */,
 				CE3B45EF21030D980054ABF7 /* ViewController.swift */,
 				CE3B45F121030D980054ABF7 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				CE3B45F921030D9A0054ABF7 /* Info.plist */,
 			);
 			path = "app-dev-profile-autoLayout";
+			sourceTree = "<group>";
+		};
+		CE3B45FF210315180054ABF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B4600210315400054ABF7 /* BorderImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3B45F021030D980054ABF7 /* ViewController.swift in Sources */,
+				CE3B4601210315400054ABF7 /* BorderImageView.swift in Sources */,
 				CE3B45EE21030D980054ABF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
